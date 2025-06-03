@@ -23,7 +23,7 @@ def countingSort(arr):
 
 tempo_inicial_all = time.time()
 # Etapa 1: Gerar os números e salvar no arquivo
-with open("entrega_final/numeros_100mil_ordenados.txt", "w") as arquivo:
+with open("../numeros_100mil_ordenados.txt", "w") as arquivo:
     numeros = list(range(1, 100001))
     random.shuffle(numeros)
     for numero in numeros:
@@ -31,7 +31,7 @@ with open("entrega_final/numeros_100mil_ordenados.txt", "w") as arquivo:
 
 # Etapa 2: Ler os números do arquivo para a lista
 lista = []
-with open("entrega_final/numeros_100mil_ordenados.txt", "r") as arquivo:
+with open("../numeros_100mil_ordenados.txt", "r") as arquivo:
     for linha in arquivo:
         lista.append(int(linha.strip()))
 
@@ -41,7 +41,7 @@ lista = countingSort(lista)
 tempo_final_ordenamento = time. time()
 
 ## Etapa 4: (Opcional) Salvar a lista ordenada no arquivo
-with open("entrega_final/numeros_100mil_ordenados.txt", "w") as arquivo:
+with open("../numeros_100mil_ordenados.txt", "w") as arquivo:
     for numero in lista:
         arquivo.write(f"{numero}\n")
 
