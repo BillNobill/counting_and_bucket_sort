@@ -27,7 +27,7 @@ O projeto executa as seguintes etapas:
 
 1. Clone o repositório:
 
-bash
+``` bash 
 git clone https://github.com/seuusuario/nome-do-repositorio.git
 cd nome-do-repositorio
 ``` 
