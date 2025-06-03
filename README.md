@@ -1,4 +1,4 @@
-# Teste de Velocidade: Counting Sort vs Bucket Sort
+# Teste de Velocidade: Counting Sort & Bucket Sort
 
 Este repositório contém um teste de performance comparando dois algoritmos de ordenação: **Counting Sort** e **Bucket Sort**. O objetivo é medir o tempo de execução de ambos os algoritmos ao ordenar um vetor de 100 mil números inteiros embaralhados.
 
